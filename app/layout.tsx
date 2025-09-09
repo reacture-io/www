@@ -14,6 +14,20 @@ const geist = Geist({
 export const metadata: Metadata = {
   title: "Reacture | Software Engineering",
   description: "Software Engineering for digital solutions.",
+  icons: [
+    {
+      rel: "icon",
+      type: "image/png",
+      url: "/dark-favicon.png",
+      media: "(prefers-color-scheme: light)",
+    },
+    {
+      rel: "icon",
+      type: "image/png",
+      url: "/light-favicon.png",
+      media: "(prefers-color-scheme: dark)",
+    },
+  ],
 };
 
 const RootLayout = ({

@@ -12,7 +12,7 @@ const Intro = forwardRef<HTMLElement, unknown>((_, ref) => (
             PORTFOLIO / {new Date().getFullYear()}
           </div>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-light tracking-tight flex flex-row items-center gap-2">
-            <Logo /> REACTURE
+            <Logo />
           </h1>
         </div>
 
