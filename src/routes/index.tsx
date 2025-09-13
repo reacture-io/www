@@ -1,6 +1,5 @@
-"use client";
-
 import { useEffect, useRef, useState } from "react";
+import { createFileRoute } from "@tanstack/react-router";
 
 import Connect from "@/components/sections/connect";
 import Footer from "@/components/sections/footer";
@@ -76,4 +75,6 @@ const Home = () => {
   );
 };
 
-export default Home;
+export const Route = createFileRoute("/")({
+  component: Home,
+});

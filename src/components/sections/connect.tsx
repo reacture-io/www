@@ -1,5 +1,4 @@
 import { forwardRef } from "react";
-import Link from "next/link";
 
 const Connect = forwardRef<HTMLElement, unknown>((_, ref) => (
   <section id="connect" ref={ref} className="py-20 sm:py-32">
@@ -14,7 +13,7 @@ const Connect = forwardRef<HTMLElement, unknown>((_, ref) => (
           </p>
 
           <div className="space-y-4">
-            <Link
+            <a
               href="mailto:indy@reacture.io"
               className="group flex items-center gap-3 text-foreground hover:text-muted-foreground transition-colors duration-300"
             >
@@ -32,7 +31,7 @@ const Connect = forwardRef<HTMLElement, unknown>((_, ref) => (
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -58,11 +57,12 @@ const Connect = forwardRef<HTMLElement, unknown>((_, ref) => (
               url: "mailto:indy@reacture.io",
             },
           ].map((social) => (
-            <Link
+            <a
               key={social.name}
               href={social.url}
               target="_blank"
               className="group p-4 border border-border rounded-lg hover:border-muted-foreground/50 transition-all duration-300 hover:shadow-sm"
+              rel="noreferrer"
             >
               <div className="space-y-2">
                 <div className="text-foreground group-hover:text-muted-foreground transition-colors duration-300">
@@ -72,7 +72,7 @@ const Connect = forwardRef<HTMLElement, unknown>((_, ref) => (
                   {social.handle}
                 </div>
               </div>
-            </Link>
+            </a>
           ))}
         </div>
       </div>
