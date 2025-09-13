@@ -48,8 +48,16 @@ export const Route = createRootRoute({
       }),
     ],
     links: [
-      { rel: "icon", href: "/light-favicon.png" },
-      { rel: "icon", href: "/dark-favicon.png" },
+      {
+        rel: "icon",
+        href: "/dark-favicon.png",
+        media: "(prefers-color-scheme: light)",
+      },
+      {
+        rel: "icon",
+        href: "/light-favicon.png",
+        media: "(prefers-color-scheme: dark)",
+      },
     ],
   }),
   component: RootComponent,
