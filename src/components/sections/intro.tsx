@@ -1,4 +1,5 @@
 import { forwardRef } from "react";
+import { Trans } from "@lingui/react";
 
 import Logo from "@/components/logo";
 import Badge from "@/components/ui/badge";
@@ -9,7 +10,8 @@ const Intro = forwardRef<HTMLElement, unknown>((_, ref) => (
       <div className="lg:col-span-3 space-y-6 sm:space-y-8">
         <div className="space-y-3 sm:space-y-2">
           <div className="text-sm text-muted-foreground font-mono tracking-wider">
-            PORTFOLIO / {new Date().getFullYear()}
+            PORTFOLIO / {new Date().getFullYear()}{" "}
+            <Trans id="welcome">Welcome to React</Trans>
           </div>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-light tracking-tight flex flex-row items-center gap-2">
             <Logo />

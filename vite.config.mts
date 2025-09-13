@@ -3,12 +3,14 @@ import { tanstackStart } from "@tanstack/react-start/plugin/vite";
 import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 import viteReact from "@vitejs/plugin-react";
+import { lingui } from "@lingui/vite-plugin";
 
 export default defineConfig({
   server: {
     port: 3000,
   },
   plugins: [
+    lingui(),
     tailwindcss(),
     tsconfigPaths(),
     tanstackStart({

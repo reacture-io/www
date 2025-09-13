@@ -9,13 +9,8 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as PathlessLayoutRouteImport } from './routes/_pathlessLayout'
 import { Route as IndexRouteImport } from './routes/index'
 
-const PathlessLayoutRoute = PathlessLayoutRouteImport.update({
-  id: '/_pathlessLayout',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -31,30 +26,21 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/_pathlessLayout': typeof PathlessLayoutRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths: '/'
   fileRoutesByTo: FileRoutesByTo
   to: '/'
-  id: '__root__' | '/' | '/_pathlessLayout'
+  id: '__root__' | '/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  PathlessLayoutRoute: typeof PathlessLayoutRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/_pathlessLayout': {
-      id: '/_pathlessLayout'
-      path: ''
-      fullPath: ''
-      preLoaderRoute: typeof PathlessLayoutRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/': {
       id: '/'
       path: '/'
@@ -67,7 +53,6 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  PathlessLayoutRoute: PathlessLayoutRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
