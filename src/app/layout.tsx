@@ -2,6 +2,7 @@ import type React from "react";
 import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
+import { NextIntlClientProvider } from "next-intl";
 
 import "../styles/globals.css";
 
@@ -12,8 +13,8 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Reacture | Software Engineering",
-  description: "Software Engineering for digital solutions.",
+  title: "Reacture | Software & AI Engineering",
+  description: "Software & AI Engineering for digital solutions.",
   icons: [
     {
       rel: "icon",
@@ -37,7 +38,9 @@ const RootLayout = ({
 }>) => (
   <html lang="en" className={`${geist.variable}`}>
     <Analytics />
-    <body className="font-sans antialiased">{children}</body>
+    <body className="font-sans antialiased">
+      <NextIntlClientProvider>{children}</NextIntlClientProvider>
+    </body>
   </html>
 );
 

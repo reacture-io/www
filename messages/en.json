@@ -1,0 +1,80 @@
+{
+  "sections": {
+    "intro": {
+      "portfolio": "PORTFOLIO / {year}",
+      "description1": "Software & AI engineering for <span>digital solutions</span>.",
+      "description2": "Combining <span>full-stack</span> and <span>agentic</span> development.",
+      "origin": "Based in Belgium",
+      "currently": "CURRENTLY",
+      "focus": "FOCUS",
+      "current": {
+        "role": "Lead Developer",
+        "company": "@ Faktion",
+        "duration": "2024 — Present"
+      }
+    },
+    "work": {
+      "title": "SELECTED WORK",
+      "duration": "{year} - 2018"
+    },
+    "connect": {
+      "title": "LET'S CONNECT",
+      "description": "Always interested in new opportunities, collaborations, and conversations about technology and software development.",
+      "elsewhere": "ELSEWHERE"
+    },
+    "experience": {
+      "title": "Experience",
+      "description": "Experience we have gained through our work.",
+      "SaaS": {
+        "title": "Software as a Service",
+        "description1": "Having been at Metamaze from almost the start, we have built an Intelligent Document Processing SaaS from the ground up. We have experience with <span>setting up</span>, <span>building</span> and monitoring SaaS applications. Our prove we deliver? Metamaze got acquired by Duco in 2024.",
+        "description2": "After Metamaze we have built <span>multiple</span> SaaS-like applications @ Faktion.",
+        "nurture": "We know what it takes, it ain't easy. We know how to nurture a SaaS."
+      },
+      "registry": {
+        "title": "Registries, inspired by shadcn",
+        "description": "We have been using shadcn for multiple years now over multiple projects. We have proven experience with <span>setting up a registry</span> and <span>building a component library</span>. The goal of a registry is to <span>improve Developer Experience</span> and <span>design consistency</span>. <span>Move fast without breaking.</span>",
+        "call-to-action": "Visit example registry",
+        "url": "https://registry.reacture.io/"
+      },
+      "agentic": {
+        "title": "Generative AI & Agentic systems",
+        "description1": "At Faktion we have built <span>more than 10</span> agentic / generative AI systems. Building agents, building workflows, building chatbots, building tools, building systems, building everything.",
+        "call-to-action": "Visit Faktion to see some of our work (yes we're proud)",
+        "url": "https://faktion.com/"
+      },
+      "ownership": {
+        "title": "Ownership",
+        "description": "We think beyond the code. We try to get the whole picture in order to create a sustainable product. Sometimes it requires process changes, sometimes technical changes. We are not afraid to take ownership of the product and the process."
+      }
+    },
+    "packages": {
+      "title": "PACKAGES",
+      "description": "Packages we build to improve Developer Experience and Quality of Life.",
+      "iso-locale": {
+        "title": "@reacture-io/iso-locale",
+        "description": "A comprehensive TypeScript library providing ISO standards for handling countries, languages, dialects, and currencies. This package offers full type safety using Zod validation with support for ISO 3166 country codes, ISO 639 language codes, BCP-47 dialects, and ISO 4217 currency codes.",
+        "github": "https://github.com/reacture-io/iso-locale",
+        "npm": "https://www.npmjs.com/package/@reacture-io/iso-locale"
+      },
+      "tsconfig": {
+        "title": "@reacture-io/tsconfig",
+        "description": "A comprehensive TypeScript configuration for Reacture projects.",
+        "github": "https://github.com/reacture-io/tsconfig",
+        "npm": "https://www.npmjs.com/package/@reacture-io/tsconfig"
+      },
+      "eslint-config": {
+        "title": "@reacture-io/eslint-config",
+        "description": "A comprehensive ESLint configuration for Reacture projects.",
+        "github": "https://github.com/reacture-io/eslint-config",
+        "npm": "https://www.npmjs.com/package/@reacture-io/eslint-config"
+      },
+      "prettier-config": {
+        "title": "@reacture-io/prettier-config",
+        "description": "A comprehensive Prettier configuration for Reacture projects.",
+        "github": "https://github.com/reacture-io/prettier-config",
+        "npm": "https://www.npmjs.com/package/@reacture-io/prettier-config"
+      }
+    }
+  }
+}
