@@ -45,10 +45,11 @@ const Intro = forwardRef<HTMLElement, unknown>((_, ref) => {
 
             <Image
               src='/images/shoutout-1.png'
-              alt='Shoutout'
+              alt='Achievement recognition for exceptional work in software development and AI engineering'
               width={500}
               height={500}
               className='rounded-lg'
+              priority
             />
           </div>
         </div>

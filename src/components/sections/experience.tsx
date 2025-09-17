@@ -21,7 +21,7 @@ const Experience = forwardRef<HTMLElement, unknown>((_, ref) => {
           </p>
           <Image
             src='/images/indy.jpeg'
-            alt='Shoutout'
+            alt='Indy van Canegem - Lead Developer at Faktion and owner at Reacture'
             className='rounded-full'
             width={200}
             height={200}

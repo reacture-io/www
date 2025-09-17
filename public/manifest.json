@@ -1,0 +1,21 @@
+{
+  "name": "Reacture - Software & AI Engineering",
+  "short_name": "Reacture",
+  "description": "Software & AI Engineering for cutting-edge digital solutions",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/dark-favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/light-favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}
