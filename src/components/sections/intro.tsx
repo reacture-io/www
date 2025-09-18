@@ -42,15 +42,6 @@ const Intro = forwardRef<HTMLElement, unknown>((_, ref) => {
             <div className='flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 text-sm text-muted-foreground'>
               <div>{t('intro.origin')}</div>
             </div>
-
-            <Image
-              src='/images/shoutout-1.png'
-              alt='Achievement recognition for exceptional work in software development and AI engineering'
-              width={500}
-              height={500}
-              className='rounded-lg'
-              priority
-            />
           </div>
         </div>
 
