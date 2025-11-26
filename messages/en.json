@@ -2,8 +2,8 @@
   "sections": {
     "intro": {
       "portfolio": "PORTFOLIO / {year}",
-      "description1": "Software & AI engineering for <span>cutting-edge digital solutions</span>.",
-      "description2": "Blending <span>full-stack expertise</span> with <span>agentic AI development</span>.",
+      "description1": "Software & AI engineering for <span>things people actually use</span>.",
+      "description2": "Years of <span>full-stack work</span>, lately spent building <span>agentic AI systems</span>.",
       "origin": "Based in Belgium",
       "currently": "CURRENTLY",
       "focus": "FOCUS",
@@ -19,59 +19,60 @@
     },
     "connect": {
       "title": "LET'S CONNECT",
-      "description": "Always interested in new opportunities, collaborations, and conversations about technology and software development.",
+      "description": "Open to new projects, collaborations, and the occasional honest conversation about software and AI.",
       "elsewhere": "ELSEWHERE"
     },
     "experience": {
       "title": "Experience",
-      "description": "Experience I have gained through my work.",
+      "description": "Mostly: taking products from slide deck to something users can’t ignore.",
       "SaaS": {
-        "title": "Software as a Service",
-        "description1": "As an early team member at Metamaze, I built an Intelligent Document Processing SaaS from the ground up—setting up, building, and monitoring every layer. Proof of impact? Metamaze was acquired by Duco in 2024.",
-        "description2": "After Metamaze I built <span>multiple</span> SaaS-like applications @ Faktion.",
-        "nurture": "I know what it takes—it isn’t easy—and how to nurture a SaaS product."
+        "title": "SaaS, from zero to \"this actually works\"",
+        "description1": "Early engineer at Metamaze, building an intelligent document processing platform from scratch—architecture, implementation, monitoring, and the unglamorous operational glue. Metamaze was acquired by Duco in 2024.",
+        "description2": "After Metamaze, I’ve shipped <span>several</span> SaaS-style products @ Faktion, from rough MVPs to platforms that had to survive real customers.",
+        "nurture": "I know what it takes to get a SaaS live—and what breaks if you don’t take care of it."
       },
       "registry": {
         "title": "Registries, inspired by shadcn",
-        "description": "I’ve worked with shadcn for years across multiple projects, building registries and component libraries that improve <span>developer experience</span> and ensure <span>design consistency</span>. <span>Move fast, stay consistent.</span>",
+        "description": "I’ve built registries and component libraries so teams stop copy‑pasting buttons and start sharing them. Better <span>developer ergonomics</span>, fewer \"why does this look different in this app\" moments.",
         "call-to-action": "Visit example registry",
-        "url": "https://registry.reacture.io/"
+        "reacture": "https://registry.reacture.io/",
+        "faktion": "https://ui.faktion.com/"
       },
       "agentic": {
-        "title": "Generative AI & Agentic systems",
-        "description1": "At Faktion I’ve delivered over ten agentic and generative-AI systems—agents, workflows, chatbots, tools—covering every layer from architecture to deployment.",
+        "title": "Generative AI & agentic systems",
+        "description1": "At Faktion I’ve shipped 10+ agentic and generative-AI systems—agents, workflows, chatbots, tools—wired into real data and real businesses. More and more of my time goes here.",
         "call-to-action": "Visit Faktion to see some of my work (yes, I’m proud)",
         "url": "https://faktion.com/"
       },
       "ownership": {
         "title": "Ownership",
-        "description": "I think beyond the code to shape sustainable products through both technical and process changes. I take full ownership—from strategy to execution."
+        "description": "I don’t throw code over the wall. I help decide what to build, how to build it, and how to keep it running when the novelty wears off."
       }
     },
     "packages": {
       "title": "PACKAGES",
-      "description": "Packages I build to improve developer experience and quality of life.",
+      "description": "Small libraries I maintain so future me (and other people) spend less time fighting tooling.",
       "iso-locale": {
         "title": "@reacture-io/iso-locale",
-        "description": "A TypeScript library providing ISO standards for handling countries, languages, dialects, and currencies. Offers full type safety using Zod validation with support for ISO 3166 country codes, ISO 639 language codes, BCP-47 dialects, and ISO 4217 currency codes.",
+        "description": "A TypeScript library for dealing with countries, languages, dialects, and currencies using ISO standards, with Zod keeping you from inventing your own formats by accident.",
         "github": "https://github.com/reacture-io/iso-locale",
         "npm": "https://www.npmjs.com/package/@reacture-io/iso-locale"
       },
       "tsconfig": {
         "title": "@reacture-io/tsconfig",
-        "description": "TypeScript configuration for Reacture projects.",
+        "description": "A shared TypeScript config that reflects how I actually ship apps, not just how docs say you should.",
         "github": "https://github.com/reacture-io/tsconfig",
         "npm": "https://www.npmjs.com/package/@reacture-io/tsconfig"
       },
       "eslint-config": {
         "title": "@reacture-io/eslint-config",
-        "description": "ESLint configuration for Reacture projects.",
+        "description": "ESLint rules that keep code readable without turning every commit into a formatting argument.",
         "github": "https://github.com/reacture-io/eslint-config",
         "npm": "https://www.npmjs.com/package/@reacture-io/eslint-config"
       },
       "prettier-config": {
         "title": "@reacture-io/prettier-config",
-        "description": "Prettier configuration for Reacture projects.",
+        "description": "One Prettier config so every project stops negotiating spaces and semicolons from scratch.",
         "github": "https://github.com/reacture-io/prettier-config",
         "npm": "https://www.npmjs.com/package/@reacture-io/prettier-config"
       }
