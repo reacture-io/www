@@ -5,6 +5,14 @@ const Work = forwardRef<HTMLElement, unknown>((_, ref) => {
   const t = useTranslations('sections');
   const jobs = [
     {
+      year: '2026',
+      role: 'Staff engineer',
+      company: 'Faktion | AI Solutions & Capabilities',
+      description:
+        'Leading development, architecture, and implementation of AI-powered solutions and capabilities for enterprise clients.',
+      tech: ['TypeScript', 'React', 'Node.js', 'Python', 'AI', 'Agents', 'Mastra', 'GraphQL', 'NestJS', 'Prisma', 'PostgreSQL', 'AWS', 'GCP', 'Azure', 'Terraform', 'Angular'],
+    },
+    {
       year: '2025',
       role: 'Lead Developer',
       company: 'Faktion | AI Solutions & Capabilities',
